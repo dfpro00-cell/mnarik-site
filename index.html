@@ -9,7 +9,7 @@
 <meta property="og:description" content="영상 제작과 AI 기반 자료 관리를 함께 하는 스튜디오.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
 <style>
 /* Layout: 하나의 타임라인 같은 단일 컬럼. 섹션마다 타임코드 라벨이 붙는다. */
 :root{
@@ -19,9 +19,9 @@
   --line:#d3d6d3;
   --accent:#d9480f;
   --panel:#e9ebe8;
-  --f-display:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-  --f-body:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --f-display:"Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-body:"Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Nanum Gothic Coding",ui-monospace,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
@@ -46,13 +46,13 @@ a{color:inherit}
 
 .top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;
   padding-bottom:14px;border-bottom:1px solid var(--line)}
-.brand{font-weight:900;font-size:1.05rem;letter-spacing:-.01em}
+.brand{font-weight:700;font-size:1.05rem;letter-spacing:-.01em}
 .tc{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);letter-spacing:.06em;font-variant-numeric:tabular-nums}
-.tc b{color:var(--accent);font-weight:500}
+.tc b{color:var(--accent);font-weight:400}
 
 .hero{padding-block:72px 64px}
 .hero h1{
-  font-family:var(--f-display);font-weight:900;
+  font-family:var(--f-display);font-weight:800;
   font-size:clamp(2rem,6.4vw,3.6rem);line-height:1.22;letter-spacing:-.035em;margin:18px 0 22px;
   text-wrap:balance;
 }
@@ -61,20 +61,20 @@ a{color:inherit}
 .en{font-family:var(--f-mono);font-size:.82rem;margin-top:18px!important;letter-spacing:.02em}
 
 section{padding-block:44px;border-top:1px solid var(--line)}
-section h2{font-size:1.5rem;font-weight:900;letter-spacing:-.02em;margin:10px 0 28px}
+section h2{font-size:1.5rem;font-weight:800;letter-spacing:-.02em;margin:10px 0 28px}
 
 .rows{display:grid;gap:0}
 .row{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:8px 32px;
   padding-block:22px;border-top:1px solid var(--line)}
 .row:first-child{border-top:0;padding-top:0}
-.row h3{margin:0;font-size:1.08rem;font-weight:500;line-height:1.5}
+.row h3{margin:0;font-size:1.08rem;font-weight:700;line-height:1.5}
 .row h3 span{display:block;font-family:var(--f-mono);font-size:.72rem;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}
 .row p{margin:0;color:var(--muted)}
 
 .works{list-style:none;margin:0;padding:0}
 .works li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 24px;padding-block:16px;border-top:1px solid var(--line)}
 .works li:first-child{border-top:0;padding-top:0}
-.works b{font-weight:500}
+.works b{font-weight:700}
 .works small{display:block;color:var(--muted);font-size:.88rem}
 .works .yr{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 
